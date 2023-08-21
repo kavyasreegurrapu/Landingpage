@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Organic products Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="https://www.transparentpng.com/thumb/leaf/I2aj1w-leaf-photos.png" alt="leaf photos @transparentpng.com"
+            alt="Company Logo"
+            id="header-img"/></a><span>Organic</span>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contactus" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="food.jpg" alt="" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Organic & Fresh</h1>
+          <h2>
+           100% certified-organic mix of fruit and veggies perfect for weekly cooking & snacking.Get your healthy veggies and fruits delivered at your doorstep all day everyday 
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+           We bring the season's best mix of  organic produce and hand crafted farm products conveniently to your door by growing and partnering with local farmers and deliver to you with the help of local delivery persons in your area.
+          </p>
+          <img src="about.jpg" alt="A man plucking apples from the tree" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="img1.jpg" alt="" />
+            <h4>vegetables</h4>
+            <p>
+                Vegetables like Spinach, Tomatoes, Cauliflower, Carrot, Green chili, Brinjal and so on constitute a significant part of the offered organic vegetable option.
+                our produce mostly has the exposure of humans rather than fertilizers.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img2.jpg" alt=""/>
+            <h4>Fruits</h4>
+            <p>
+            Fruits like Mangoes,Bananas,Apples etc are produced.No Quick ripening chemicals like acetylene gas are used.The Quality of organic fruits is so fine that you can feel the consistent sweetness,unlike chemically ripened fruits.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img4.jpg" alt="" />
+            <h4>Dairy products</h4>
+            <p>
+              we produce  milk  that is free from any undesired chemicals 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img3.jpg" alt="" />
+            <h4>Food Grains</h4>
+            <p>
+              our Products include Wheat, Millet, Corn, Maize, and Rice.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img5.jpg" alt="" />
+            <h4>Fruit Juices</h4>
+            <p>
+                This category includes Coconut water, Orange juice, Apple juice, Pineapple juice, Aloe vera juice, Gooseberry juice, Amla juice.We produce the freshly made juices.
+
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh vegetables,fruits,dairy products,food grains and fruit juices  with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as you have ordered.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactus"  class="sec-padding">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required />
+            <input type="submit" class="button" id=" submit" value="Know More" />
+            <input
+              type="phone number"
+              name="phone number"
+              id="phonenumber"
+              placeholder="Your mobile number"
+              required
+            />
+            <input type="submit" class="button" id=" submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">kavya</a>
+    </footer>
+  </body>
+</html>
